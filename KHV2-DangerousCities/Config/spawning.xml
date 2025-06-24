@@ -34,14 +34,14 @@
 	</set>
 	
 	<set xpath="/spawning/biome[@name='desert']">
-		<spawn id="ddz01" maxcount="1" respawndelay="0.5" time="Day" entitygroup="ZombiesAll" tags="wilderness"/>
-		<spawn id="dnz01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="ZombiesNight" tags="wilderness"/>
+		<spawn id="ddz01" maxcount="1" respawndelay="0.5" time="Day" entitygroup="ZombiesDesert" tags="wilderness"/>
+		<spawn id="dnz01" maxcount="1" respawndelay="0.5" time="Night" entitygroup="ZombiesDesertNight" tags="wilderness"/>
 		
 		<spawn id="ddz02" maxcount="8" respawndelay="0.2" time="Day" entitygroup="ZombiesAll" tags="commercial,industrial" notags="downtown"/>
 		<spawn id="dnz02" maxcount="8" respawndelay="0.1" time="Night" entitygroup="ZombiesNight" tags="commercial,industrial" notags="downtown"/>
 			
-		<spawn id="ddz03" maxcount="4" respawndelay="2" time="Day" entitygroup="ZombiesAll" tags="residential,rural,gateway,countryresidential,countrytown,oldwest"/>
-		<spawn id="dnz03" maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesNight" tags="residential,rural,gateway,countryresidential,countrytown,oldwest"/>
+		<spawn id="ddz03" maxcount="4" respawndelay="2" time="Day" entitygroup="ZombiesDesert" tags="residential,rural,gateway,countryresidential,countrytown,oldwest"/>
+		<spawn id="dnz03" maxcount="4" respawndelay="2" time="Night" entitygroup="ZombiesDesertNight" tags="residential,rural,gateway,countryresidential,countrytown,oldwest"/>
 
 		<spawn id="ddz04" maxcount="8" respawndelay="0.2" time="Day" entitygroup="ZombiesDowntown" tags="downtown"/>
 		<spawn id="dnz04" maxcount="8" respawndelay="0.09" time="Night" entitygroup="ZombiesDowntown" tags="downtown"/>
